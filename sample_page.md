@@ -83,7 +83,7 @@ flightdf['Destination_Frequency'] = flightdf['Destination'].replace(Destination_
 
 flightdf.head()
 ```
-With these categories created, we can perform machine learning while also utilizing geographical information.
+Now that we have these features, we can perform machine learning while also utilizing geographical information.
 
 ### 3. Training a model
 
