@@ -5,7 +5,7 @@
 ### Machine Learning Projects 
 
 [Empty Flights](/emptyflights.md)
-<img src="plane.jpg?raw=true"/>
+<img src="images/plane.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
