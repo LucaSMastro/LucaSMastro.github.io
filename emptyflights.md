@@ -30,7 +30,7 @@ Which gives the following output:
 
 ### 2. Formating Locations
 
-One might notice from the above output that locations are described by distinct airport codes. Given that over 500 airports in the US serve commercial flights, we need to generalize this to reduce the number of categories. First this is carried out by State.
+One might notice from the above output that locations are described by distinct airport codes. Given that over 500 airports in the US serve commercial flights, we need to generalize this to reduce the number of categories. Generalizing categories like this is essential to make our model plausible, but will lead to loss of information. In order to mitigate this loss, we will try to capture as much as we can. First, to maintain geographic information, we sort origin and departure airports into categories by State.
 
 ```python
 #There are too many airports to fit into bins for GBT and RF. We need to create variables that the tree can work with
@@ -56,7 +56,7 @@ flightdf['Destination_State'].replace(stateDict, inplace = True)
 flightdf.head()
 ```
 
-Then an additional category is made classifying airports by frequency.
+Where the airports are physically located is important information, but so is the popularity of them. After all, an airport that serves fifty commercial flights a day is a far cry from one that sees that many in a year. In order to capture this information, we create a new feature that contains the tally of how many flights flew to or from each airport in our dataset.
 
 ```python
 #Finds how many flights flew from each origin and makes this into a column of our dataframe.
@@ -83,7 +83,7 @@ flightdf['Destination_Frequency'] = flightdf['Destination'].replace(Destination_
 
 flightdf.head()
 ```
-Now that we have these features, we can perform machine learning while also utilizing geographical information.
+Now that we have these features created, it's plausible to use airport information for machine learning purposes.
 
 ### 3. Training a model
 
