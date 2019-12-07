@@ -56,7 +56,7 @@ flightdf['Destination_State'].replace(stateDict, inplace = True)
 flightdf.head()
 ```
 
-Where the airports are physically located is important information, but so is the popularity of them. After all, an airport that serves fifty commercial flights a day is a far cry from one that sees that many in a year. In order to capture this information, we create a new feature that contains the tally of how many flights flew to or from each airport in our dataset.
+Where the airports are physically located is important information, but so is the popularity of each airport. After all, an airport that serves fifty commercial flights a day is a far cry from one that sees that many in a year. In order to capture this information, we create a new feature that contains the tally of how many flights flew to or from each airport in our dataset.
 
 ```python
 #Finds how many flights flew from each origin and makes this into a column of our dataframe.
@@ -142,4 +142,4 @@ Our test error is approximately 32%.
 
 Our model's seeming lack of accuracy becomes understandable when put in context. As was previously mentioned, airlines actively work to identify and mitigate empty flights. This weakens our ability to predict empty seats. For example, if an airport often sends out planes without many onboard, then this would be a strong predictor of emptiness. However, airlines make efforts to identify such airports and take measures aimed at alleviating the issue. That is not to rule out the creation of a more accurate model. However, other predictors are either not publically available or else not tenable in application.
 
-An example of the former is how many customers are actually booked to a flight. Whether half the seats on a flight are booked, or the flight is overbooked to twice its capacity, this information would be extraordinarily powerful. Unfortunately, airlines do not make it public. An example of the latter would be flight delays. Unfortunately, since most customers don't book flights so close that delays would have already been announced, this information would be difficult to obtain for real-world applications until it's no longer useful in decision-making.
+An example of the former is how many customers are actually booked to a flight. Whether half the seats on a flight are booked, or the flight is overbooked to twice its capacity, this information would be extraordinarily powerful. Unfortunately, airlines do not make it publicly available. An example of the latter would be flight delays. Unfortunately, since most customers don't book flights so close that delays would have already been announced, this information would be difficult to obtain for real-world applications until it's no longer useful in decision-making.
