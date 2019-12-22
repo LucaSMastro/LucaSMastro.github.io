@@ -8,6 +8,10 @@
 <img src="images/plane.jpg?raw=true"/>
 
 ---
+
+[Twitter Sentiment](/twittersentiment.md)
+<img src="images/twitter.jpg?raw=true"/>
+
 ### This website is currently under construction.
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
