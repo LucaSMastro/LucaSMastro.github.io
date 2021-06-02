@@ -4,7 +4,7 @@
 
 ### Machine Learning Projects 
 
-[Empty Flights](/emptyflights.md)
+[Empty Flights](/AdvancedDataScienceCapstone.md)
 <img src="images/plane.jpg?raw=true"/>
 
 ---
