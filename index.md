@@ -4,7 +4,7 @@
 
 ### Machine Learning Projects 
 
-[Empty Flights](/AdvancedDataScienceCapstone.md)
+[GLD Prediction](/AdvancedDataSciencecapstoneMD/GLDPrediction.md)
 <img src="images/plane.jpg?raw=true"/>
 
 ---
