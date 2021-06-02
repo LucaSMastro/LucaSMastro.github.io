@@ -1,4 +1,5 @@
 # Predicting GLD Close Price
+## Created as the Capstone of the IBM Advanced Data Science Certification. Youtube Presentation available [here.](https://www.youtube.com/watch?v=1CIgzs7CFfQ&t=603s)
    The aim of this notebook is to predict the closing price of the GLD ETF, which tracks the price of gold. We will utilize additional financial data sets that track factors (inflation and the price of silver) that may have an impact on the price of gold. We will also impute technographic metrics regarding the GLD ETF. Finally, we will train both a random forest model with access to increasing quantities of past data that aims to predict the next day's closing price and a neural network that aims to predict closing prices of the next ten days and compare which tool is more valuable.
 
 
