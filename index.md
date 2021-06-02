@@ -5,7 +5,7 @@
 ### Machine Learning Projects 
 
 [GLD Prediction](/AdvancedDataSciencecapstoneMD/GLDPrediction.md)
-<img src="images/plane.jpg?raw=true"/>
+<img src="images/money.jpg?raw=true"/>
 
 ---
 
