@@ -5,7 +5,7 @@
 ### Machine Learning Projects 
 
 [GLD Prediction](/AdvancedDataSciencecapstoneMD/GLDPrediction.md)
-<img src="images/money.jpg?raw=true"/>
+Time-Series Analysis with PySpark, Keras and TensorFlow to predict the future price of the GLD ETF.
 
 ---
 
