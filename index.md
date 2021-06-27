@@ -5,7 +5,12 @@
 ### Machine Learning Projects 
 
 [GLD Prediction](/AdvancedDataSciencecapstoneMD/GLDPrediction.md)
-Time-Series Analysis with PySpark, Keras and TensorFlow to predict the future price of the GLD ETF.
+
+Time-Series Analysis with PySpark, Keras and TensorFlow on disparate datasets from different sources to predict the future price of the GLD ETF.
+
+[Walt Disney World Sentiment Analysis](/DisneyReviews/DisneyReviews.md)
+
+Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pipeline and explore the coefficients of the underlying mathematical formula.
 
 ---
 
