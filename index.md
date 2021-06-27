@@ -10,7 +10,7 @@ Time-Series Analysis with PySpark, Keras and TensorFlow on disparate datasets fr
 
 [Walt Disney World Sentiment Analysis](/DisneyReviews/DisneyReviews.md)
 
-Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pipeline and explore the coefficients of the underlying mathematical formula.
+Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pipeline and explore the coefficients of the underlying formula to explore the most important points that guests like and dislike about Walt Disney World.
 
 ---
 
