@@ -14,7 +14,13 @@ Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pip
 
 ---
 
-### This website is currently under construction.
+### Scripting Projects
+
+[Eye Mouse](EyeMouse.md)
+
+A Python script that uses computer vision to empower those without the use of their hands to manipulate their cursor by moving their head and winking.
+
+---
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
