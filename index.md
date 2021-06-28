@@ -2,7 +2,7 @@
 
 ---
 
-### Machine Learning Projects 
+### Data Science Projects 
 
 [GLD Prediction](/AdvancedDataSciencecapstoneMD/GLDPrediction.md)
 
