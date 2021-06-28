@@ -18,7 +18,7 @@ Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pip
 
 [Eye Mouse](EyeMouse.md)
 
-A Python script that uses computer vision to empower those without the use of their hands to manipulate their cursor by moving their head and winking.
+A Python script that uses computer vision to empower those without the use of their hands to manipulate their cursor by tilting their head and winking.
 
 ---
 
