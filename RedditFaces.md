@@ -41,7 +41,7 @@ removedList = list()
 
 size=500
 iterations=80
-subreddit='truerateme'
+subreddit='subreddit of choice here'
 
 usefulIndex=0
 finalIndex=0
