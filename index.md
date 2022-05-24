@@ -16,7 +16,7 @@ Web scraping, then utilizing PySpark to construct an NLP Logistic Regression Pip
 
 ### Relevant Data Science Scripts
 
-[Reddit Face Image Collection] (RedditFaces.md)
+[Reddit Face Image Collection](RedditFaces.md)
 
 A script that makes many API calls to construct a datset of images, titles and comments from posts on a given subreddit. A computer vision model is utilized to help remove unwanted images by only keeping those with faces present.
 
